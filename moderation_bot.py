@@ -17,10 +17,10 @@ from aiogram.exceptions import TelegramAPIError
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8937288340:AAFOQDffMAesEjonf59nFh89F3n8uTIolgQ").strip()
 ADMIN_IDS = {
     int(x.strip())
-    for x in os.getenv("ADMIN_IDS", "").split(",")
+    for x in os.getenv("ADMIN_IDS", "5782652474").split(",")
     if x.strip().isdigit()
 }
 DB_PATH = os.getenv("DB_PATH", "bot.db")
